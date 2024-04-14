@@ -40,7 +40,7 @@ contacts_messages = {
     "+91 8826284815": "I am in trouble please help",
     "91 9990193405": "Urgent: I need assistance",
 }
-gmaps = googlemaps.Client(key='AIzaSyD8L7GuWwJBe3Kw7wXfkwHJH5qjyIfSZdc')
+gmaps = googlemaps.Client(key='confidential')
 
 def get_current_location():
     try:
@@ -57,8 +57,8 @@ def get_current_location():
     
 def send_whatsapp_message(contact, message):
 
-    account_sid = 'AC7f362944e534f07390eee3527036ca76'
-    auth_token = 'c9912387b532cebdfde2d5b4a2f47d43'
+    account_sid = 'confidential'
+    auth_token = 'confidential'
     twilio_number = '+12185262645'
 
 
